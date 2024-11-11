@@ -94,4 +94,14 @@ To kodo rezultatas:
 
 Taigi, mokėstis buvo teisingai apskaičiuotas.
 
+4. Šiai užduočiai bandžiau sukurti savo kodą, tačiau nepavyko - blogai skaičiaviavo hash. Todėl pasinaudojau rastu kodu iš https://stackoverflow.com/questions/66944273/bitcoin-verify-a-single-block-in-python. Kodas patikrina 620954 bloko hash. Kodą paleidžiau taip, kaip 2 ir 3 užduotyse:
+
+   rpc_hash.py
+   
+   * Terminale parašiau "nano rpc_hash.py"
+   * Įdėjau duotą kodą rpc_hash.py
+   * Paspaudžiau Ctrl + X, tada Y ir Enter
+   * Paleidžiau kodą naudodama komandą "python3 rpc_hash.py"
+   * Gavau atsakymą: 
+   * ![image](https://github.com/user-attachments/assets/84450e0e-a0d2-46d8-bf31-4b75d951785d)
 
