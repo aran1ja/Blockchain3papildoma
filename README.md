@@ -6,6 +6,12 @@
 ## 2 dalis: Pilno Bitcoin mazgo (Bitcoin Core) įdiegimas
 Šiai užduočiai reikia įdiegti pilną Bitcoin mazgą (Bitcoin Core) savo kompiuteryje arba debesyje ir pasidalinti mazgo prieiga su kolegomis.
 
+Bitcoin Core diegimas:
+
+![image](https://github.com/user-attachments/assets/0ff0e286-a5ae-4e45-a69e-184c6e2c025a)
+
+Tam, kad įrašyti Bitcoin Core į OneDrive, modifikavau bitcoin.conf failą - nustačiau, kad failai būtų įrašomi tam tikru keliu: datadir=C:\Users\acer\OneDrive - Vilnius University\BitcoinData.
+
 ## 3 dalis: Bitcoin tinklo analizė su python-bitcoinlib
 Šioje dalyje išmoksite naudotis python-bitcoinlib biblioteka ir Bitcoin Core mazgu, norint gauti ir analizuoti informaciją apie Bitcoin tinklą.
 
