@@ -3,6 +3,25 @@
 ## 1 dalis: Merkle medžio implementacija su Libbitcoin
 Šioje dalyje susipažinsime su libbitcoin biblioteka ir ja pasinaudosime Merkle medžio implementacijai.
 
+_Užduoties padaryti nepavyko, tačiau pateiksiu bandymų procesą._
+
+1. Bandžiau padaryti WSL, parašiau komandas į PowerShell ir atsirado:
+
+   ![изображение](https://github.com/user-attachments/assets/ffb00195-df39-43fa-b479-a988b36e8362).
+
+   Tačiau jis neatsidarinėjo. Tada bandžiau instaliuoti Ubuntu, tačiau visą laiką rodė tik tai:
+
+   ![изображение](https://github.com/user-attachments/assets/2cd710b1-e584-4e7b-8df2-5196b7a042ed)
+
+   ir daugiau nieko nesidarė.
+3. Pabandžiau tada instaliuoti libbitcoin ir paleisti kodą per Miscrosoft Visual Studio 2022. Tam tikslui instaliavau Visual Studio 2017 Redistribution (nepavyko rasti Visual Studio 2017). Kodas neveikė, rodė 22 klaidas. Keletas iš jų buvo, kad reikia naujesnės versijos.
+4. Pabandžiau su Visual Studio Code. Rodė vieną klaidą - su <bitcoin/bitcoin.hpp> - negalėjo rasti failo.
+5. Kadangi nepavyko su WSL, pabandžiau su Ubuntu virtualėje mašinoje. Instaliavau Oracle VM Virtual Box, ten įdiegiau Ubuntu, VSCode. Bandžiau atkartoti tą patį procesą, kurį bandžiau daryti savo kompiuteryje, tačiau vis tiek rodė klaidą.
+6. Klausiau ChatGPT, žiūrėjau libbitcoin instaliavimo instrukciją, bandžiau viska įdiegti per terminalą - gavau 20GB failų, kuriuose vis teik nebuvo <bitcoin/bitcoin.hpp>.
+7. Paklausiau kursiokų, ką galėtų parekomenduoti, jei jiems pavyko. Man patarė pakeisti <bitcoin/bitcoin.hpp> į <system.hpp>. Neveikė.
+8. Pabandžiau pakeisti <bitcoin/bitcoin.hpp> į <system.hpp> ir mano kompiuterio Visual Studio, VSCode - vis tiek neveikė.
+9. Bandymų buvo labai daug ir tam skirta net ne vieną dieną, bet rezultatai nebuvo tenkinami ir iki galo padaryti nesigavo.
+
 ## 2 dalis: Pilno Bitcoin mazgo (Bitcoin Core) įdiegimas
 Šiai užduočiai reikia įdiegti pilną Bitcoin mazgą (Bitcoin Core) savo kompiuteryje arba debesyje ir pasidalinti mazgo prieiga su kolegomis.
 
