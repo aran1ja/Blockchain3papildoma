@@ -6,11 +6,23 @@
 ## 2 dalis: Pilno Bitcoin mazgo (Bitcoin Core) įdiegimas
 Šiai užduočiai reikia įdiegti pilną Bitcoin mazgą (Bitcoin Core) savo kompiuteryje arba debesyje ir pasidalinti mazgo prieiga su kolegomis.
 
+_Užduoties padaryti nepavyko, tačiau pateiksiu bandymų procesą._
+
 Bitcoin Core diegimas:
 
 ![image](https://github.com/user-attachments/assets/0ff0e286-a5ae-4e45-a69e-184c6e2c025a)
 
-Tam, kad įrašyti Bitcoin Core į OneDrive, modifikavau bitcoin.conf failą - nustačiau, kad failai būtų įrašomi tam tikru keliu: datadir=C:\Users\acer\OneDrive - Vilnius University\BitcoinData.
+1. Pirmi kartai nepavyko, nes pasirodė, kad instaliavosi ne pilnos versijos.
+2. Pabandžiau atsiųsti pilną Bitcoin Core versiją, tačiau instaliavosi į kompiuterį.
+3. Modifikavau bitcoin.config failą, bet keletą kartų vis tiek instaliavo į kompiuterį.
+4. Modifikavau bitcoin.conf failą - nustačiau, kad failai būtų įrašomi tam tikru keliu: datadir=C:\Users\acer\OneDrive - Vilnius University\BitcoinData. Tačiau jis vis tiek siųntė failus į kompiuterį ir iš kompiuterio į OneDrive. Tada iš kompiuterio šalino duomenis. Tačiau vienu momentu jis man neužteko vietos kompiuteryje, viskas užsidarė ir pradėjo rodyti error'us.
+5. Pabandžiau dar kartą padaryti, bet praėjus 3 dienoms, į OneDrive atsisuntė tik 174 GB:
+
+![изображение](https://github.com/user-attachments/assets/60ba700a-9ce5-4373-9310-821d6cd06c20)
+
+Dažnai man užsidaro Bitcoin Core diegimo langas. Kada jį atidarau, rodo "Loading block index...", tačiau daugiau nieko nevyksta.
+
+Taigi, atlikti šiai užduočiau buvo padaryta daug bandymų, laukta daug laiko, bet vis nepasisekė padaryti iki galo.
 
 ## 3 dalis: Bitcoin tinklo analizė su python-bitcoinlib
 Šioje dalyje išmoksite naudotis python-bitcoinlib biblioteka ir Bitcoin Core mazgu, norint gauti ir analizuoti informaciją apie Bitcoin tinklą.
